@@ -1,0 +1,29 @@
+{
+  "todos": [
+    {
+      "id": "todo-1",
+      "label": "Learn Vue",
+      "done": true
+    },
+    {
+      "id": "todo-2",
+      "label": "Learn Rails",
+      "done": true
+    },
+    {
+      "id": "todo-3",
+      "label": "Have fun",
+      "done": true
+    },
+    {
+      "id": "todo-4",
+      "label": "Create a rails API",
+      "done": false
+    },
+    {
+      "id": "todo-5",
+      "label": "Create a to-do list",
+      "done": true
+    }
+  ]
+}
