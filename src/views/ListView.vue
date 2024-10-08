@@ -41,7 +41,8 @@ export default {
 }
 </script>
 <template>
-  <ListForm @createList="(msg) => handleList(msg)" />
+  <div>
+    <ListForm @createList="(msg) => handleList(msg)" />
     <div class="list-container">
       <ul>
         <li v-for="i in todolists" :key="i.id">
@@ -54,6 +55,7 @@ export default {
         </li>
       </ul>
     </div>
+  </div>
 </template>
 <style>
 .box-link {
