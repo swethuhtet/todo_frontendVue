@@ -19,7 +19,7 @@ export default{
   <div>
     <form @submit.prevent="onSubmit">
       <h2 class="label-wrapper">
-        <label class="label__lg"> Add new Todo List</label>
+        <label class="label__lg">Add new Todo List</label>
       </h2>
       <input v-model="todoList" required placeholder="Name a List" class="input__lg" />
       <button type="submit" class="btn btn__primary btn__lg">Add</button>
