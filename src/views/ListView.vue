@@ -2,6 +2,8 @@
 import { RouterLink } from 'vue-router'
 import ListForm from '../components/ListForm.vue'
 import axios from 'axios'
+import { createStore } from 'vuex'
+
 export default {
   components: {
     ListForm
